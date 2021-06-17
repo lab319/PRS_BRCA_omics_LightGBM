@@ -6,7 +6,7 @@ dlmu_lab319@163.com
 
 **Citation:** 
 
-Baoshan Ma, Jianqiao Pan, Xiaoyu Hou, Chongyang Li, Tong Xiong, Jiangchuan Luo, Haowen Tan, Fengju Song. The Construction of Polygenic Risk Scores for Breast Cancer Basing on LightGBM and Multiple Omics Data.
+Baoshan Ma*, Jianqiao Pan, Xiaoyu Hou, Chongyang Li, Tong Xiong, Yi Gong, Fengju Song*. The Construction of Polygenic Risk Scores for Breast Cancer Based on LightGBM and Multiple Omics Data.(under review)
 
 ## 1.Introduction
 

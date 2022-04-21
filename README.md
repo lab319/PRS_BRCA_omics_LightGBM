@@ -6,11 +6,11 @@ dlmu_lab319@163.com
 
 **Citation:** 
 
-Baoshan Ma*, Jianqiao Pan, Xiaoyu Hou, Chongyang Li, Tong Xiong, Yi Gong, Fengju Song*. The Construction of Polygenic Risk Scores for Breast Cancer Based on LightGBM and Multiple Omics Data.(under review)
+Jianqiao Pan, Baoshan Ma, Xiaoyu Hou, Chongyang Li, Tong Xiong, Yi Gong, Fengju Song*. The Construction of Polygenic Risk Scores for Breast Cancer Based on LightGBM and Multiple Omics Data.(under review)
 
 ## 1.Introduction
 
-We provided a python program to generate the PRS of BRCA in your own omics data. The entire process is fully automated without your manual intervention. You only need to enter the type of phenotype and omics data according to the program prompts. For more information about our construction of the PRS model, please refer to “***The Construction of Polygenic Risk Scores for Breast Cancer Basing on LightGBM and Multiple Omics Data***”. If you find the program useful, please cite the above reference.
+We provided a python program to generate the PRS of BRCA in your own omics data. The entire process is fully automated without your manual intervention. You only need to enter the type of phenotype and omics data according to the program prompts. For more information about our construction of the PRS model, please refer to “***The Construction of transcriptomics Risk Scores for Breast Cancer Basing on LightGBM and Multiple Omics Data***”. If you find the program useful, please cite the above reference.
 
 ## 2.Software requirement
 
@@ -18,7 +18,7 @@ The program is built based on python 3.7 version, you can also use a higher vers
 
 ## 3.File Directory
 
-The entire folder contains four subfolders and a python program file. The "biological variables" and "saved model" folders contains the csv file of biological variables and the pkl file of trained LightGBM model in four types of omics data for case-control and cancer stage control status. The "input_data" and "output_data" contains omics data provided by the user and PRS of each samples. The "PRS_BRCA.py" is the python program.
+The entire folder contains four subfolders and a python program file. The "biological variables" and "saved model" folders contains the csv file of biological variables and the pkl file of trained LightGBM model in four types of omics data for case-control and cancer stage control status. The "input_data" and "output_data" contains omics data provided by the user and PRS of each samples. The "TRS_BRCA.py" is the python program.
 
 ## 4.How to use our program
 
@@ -36,6 +36,6 @@ The entire folder contains four subfolders and a python program file. The "biolo
 
 (1) If we want to obtain the PRS of miRNA data for case-control status, we firstly need to upload a `data.csv` file containing miRNA data (each row is a biological variable and each column is a sample).
 
-(2) Run our "`PRS_BRCA.py`" program. We will see `Please input the status of BRCA:` in the python console, then type `case_control` . Next, We will see `Please input the type of omics data of BRCA:` in the python console, then type `miRNA`. 
+(2) Run our "`TRS_BRCA.py`" program. We will see `Please input the status of BRCA:` in the python console, then type `case_control` . Next, We will see `Please input the type of omics data of BRCA:` in the python console, then type `miRNA`. 
 
-(3) After the program is executed, we can find the `TCGA_BRCA_case_control_miRNA_prs.csv` file containing each PRS of sample in the `output_data` folder.
+(3) After the program is executed, we can find the `TCGA_BRCA_case_control_miRNA_Trs.csv` file containing each PRS of sample in the `output_data` folder.
